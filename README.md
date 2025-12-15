@@ -1,7 +1,7 @@
 # Code as a Ninja: Creative Coding Ideas
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Shayanthn/creative-coding-ideas/main/assets/ninja-banner.png" alt="Code as a Ninja" width="80%">
+  <img src="https://github.com/Shayanthn/creative-coding-ideas/blob/f4208764aefe9746ab22e55255083a3a01d837a8/photo_2025-12-15_20-26-29.jpg" alt="Code as a Ninja" width="80%">
 </p>
 
 Welcome to **Code as a Ninja** – your ULTIMATE LAB for CUTTING-EDGE CREATIVE IDEAS! 🚀
