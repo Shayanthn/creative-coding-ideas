@@ -37,7 +37,7 @@ Whether you're a developer craving inspiration, a designer seeking to understand
 
 > A mesmerizing interactive cursor effect using HTML5 Canvas and JavaScript. Move your mouse and watch the web come alive!
 
-- **Live Demo:** _Coming soon_
+- **Live Demo:** _published_
 - **Source:** [`Interactive Spider Cursor`](./Interactive%20Spider%20Cursor/)
 
 ---
