@@ -1,0 +1,86 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    min-height: 100vh;
+    min-width: 100vw;
+    box-sizing: border-box;
+    position: relative;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    min-height: 100vh;
+    min-width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    z-index: 1;
+}
+
+.footer-gradient {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    padding: 16px 0 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background: linear-gradient(90deg, #ff00cc, #3333ff, #00ff99, #ffcc00, #ff0066);
+    background-size: 400% 400%;
+    animation: gradientMove 8s ease infinite;
+    z-index: 10;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+@keyframes gradientMove {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+.footer-name {
+    font-weight: bold;
+    font-size: 1.2em;
+    background: linear-gradient(90deg, #ff00cc, #3333ff, #00ff99, #ffcc00, #ff0066);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    animation: gradientMove 8s ease infinite;
+}
+
+.footer-youtube {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #fff;
+    transition: color 0.2s;
+}
+.footer-youtube:hover {
+    color: #ff0000;
+}
+.youtube-logo {
+    width: 24px;
+    height: 24px;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+}
